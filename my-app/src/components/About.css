@@ -1,0 +1,14 @@
+.about {
+  background-color: #e6f2fa;
+}
+
+.about h2 {
+  color: #0A1F44;
+  margin-bottom: 20px;
+}
+
+.about p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
