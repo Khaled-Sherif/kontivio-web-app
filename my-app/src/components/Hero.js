@@ -1,20 +1,22 @@
 import React from 'react';
 import heroImage from '../assets/Image-hero.jpeg';
 import './Hero.css';
+import styles from "./Hero.module.css"
 
-function Hero() {
+
+const Hero = () => {
   return (
-    <section className="hero">
-      <div className="hero-content">
-        <h1>Your Trusted Call Center Partner</h1>
-        <p>Delivering excellent customer support, 24/7.</p>
-        <button>Get a Quote</button>
-      </div>
-      <div className="hero-image">
-        <img src={heroImage} alt="Hero" />
+    <section className={styles.hero}>
+      <div className={styles.content}>
+        <h1>Customer Service Outsourcing for SMEs in Germany</h1>
+        <p>
+          Kontivio provides professional, multilingual customer support that
+          represents your company’s vision and voice.
+        </p>
+        <a href="#contact" className={styles.button}>Get Started</a>
       </div>
     </section>
   );
-}
+};
 
 export default Hero;
