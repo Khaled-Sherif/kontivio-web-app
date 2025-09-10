@@ -1,19 +1,18 @@
 import React from 'react';
-import heroImage from '../assets/Image-hero.jpeg';
-import './Hero.css';
-import styles from "./Hero.module.css"
-
+//import heroImage from '../assets/Image-hero.jpeg';
+import "./Hero.css";
 
 const Hero = () => {
   return (
-    <section className={styles.hero}>
-      <div className={styles.content}>
-        <h1>Customer Service Outsourcing for SMEs in Germany</h1>
-        <p>
-          Kontivio provides professional, multilingual customer support that
-          represents your company’s vision and voice.
-        </p>
-        <a href="#contact" className={styles.button}>Get Started</a>
+    <section className="hero">
+      <div className="hero-overlay">
+        <div className="container hero-content">
+          <h1>
+            Your German-speaking customer support partner – helping your
+            business grow with professional, reliable, and scalable solutions.
+          </h1>
+          <button className="btn">Get in Touch</button>
+        </div>
       </div>
     </section>
   );

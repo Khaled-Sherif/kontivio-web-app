@@ -1,24 +1,33 @@
 .services {
-  background-color: #ffffff;
+  background: #fff;
 }
 
 .services h2 {
-  color: #0A1F44;
+  text-align: center;
   margin-bottom: 40px;
+  color: #222;
 }
 
-.cards {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
 }
 
-.card {
-  background-color: #f0f6fc;
-  padding: 30px;
+.service-card {
+  background: #fdfdfd;
   border-radius: 10px;
-  width: 250px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  font-weight: 500;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card h3 {
+  color: #ff6600;
+  margin-bottom: 15px;
 }
