@@ -1,57 +1,25 @@
 body {
-  background-color: #f0f6fc;
-  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
-  color: #0A1F44;
   margin: 0;
-  padding: 0;
-  line-height: 1.6;
+  font-family: "Open Sans", sans-serif;
+  background: #f9f9f9;
+  color: #333;
 }
 
-a {
-  color: #5AB9EA;
+h1, h2, h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-primary {
+  background: #ff6600;
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 5px;
   text-decoration: none;
-  transition: color 0.2s ease;
-}
-a:hover {
-  color: #0A1F44;
-}
-
-/* === Card-like containers === */
-div.card, .card {
-  background-color: #ffffff;
-  border: 1px solid #5AB9EA;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(10, 31, 68, 0.1);
-  padding: 20px;
-  margin: 20px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-div.card:hover, .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(10, 31, 68, 0.2);
-}
-div.card h2, div.card h3, .card h2, .card h3 {
-  color: #0A1F44;
-  margin-bottom: 10px;
   font-weight: bold;
-}
-div.card p, .card p {
-  color: #0A1F44;
-  opacity: 0.9;
+  display: inline-block;
+  transition: background 0.3s ease;
 }
 
-/* === Buttons (any <button> tag) === */
-button {
-  background-color: #5AB9EA;
-  color: #ffffff;
-  border: none;
-  border-radius: 6px;
-  padding: 10px 18px;
-  cursor: pointer;
-  font-size: 1rem;
-  font-weight: 600;
-  transition: background-color 0.2s ease;
-}
-button:hover {
-  background-color: #0A1F44;
+.btn-primary:hover {
+  background: #cc5200;
 }

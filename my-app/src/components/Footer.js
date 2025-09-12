@@ -1,11 +1,17 @@
-import React from 'react';
-import './Footer.css';
+import React from "react";
+import "./Footer.css";
 
 function Footer() {
   return (
-    <footer className="footer" id="contact">
-      <p>Contact us: info@callcenterpro.com | +1 (800) 123-4567</p>
-      <p>&copy; {new Date().getFullYear()} CallCenterPro</p>
+    <footer className="footer">
+      <div className="footer-container">
+        <p>© {new Date().getFullYear()} Kontivio. All Rights Reserved.</p>
+        <div className="footer-links">
+          <a href="#about">About</a>
+          <a href="#careers">Careers</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
     </footer>
   );
 }

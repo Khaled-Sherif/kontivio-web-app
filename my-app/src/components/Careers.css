@@ -1,0 +1,15 @@
+.careers {
+  background: #f7f7f7;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.careers h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.careers p {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}

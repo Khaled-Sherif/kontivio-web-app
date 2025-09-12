@@ -1,21 +1,16 @@
-import React from 'react';
-//import heroImage from '../assets/Image-hero.jpeg';
+import React from "react";
 import "./Hero.css";
 
-const Hero = () => {
+function Hero() {
   return (
     <section className="hero">
       <div className="hero-overlay">
-        <div className="container hero-content">
-          <h1>
-            Your German-speaking customer support partner – helping your
-            business grow with professional, reliable, and scalable solutions.
-          </h1>
-          <button className="btn">Get in Touch</button>
-        </div>
+        <h1>Outsourcing That Drives Growth</h1>
+        <p>We deliver customer experience solutions with innovation and care.</p>
+        <a href="#contact" className="btn-primary">Get Started</a>
       </div>
     </section>
   );
-};
+}
 
 export default Hero;
