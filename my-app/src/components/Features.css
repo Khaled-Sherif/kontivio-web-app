@@ -2,6 +2,10 @@
   padding: 4rem 2rem;
   text-align: center;
   background: #fff;
+  position: relative;
+  z-index: 2;
+  margin-top: 600px; /* pushes services below hero */
+  padding: 50px 20px;
 }
 
 .features h2 {
