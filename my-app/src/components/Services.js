@@ -24,7 +24,6 @@ const Services = () => {
   return (
     <section className="services">
       <div className="container">
-        <h2>Our Services</h2>
         <div className="services-grid">
           {services.map((s, i) => (
             <div className="card">

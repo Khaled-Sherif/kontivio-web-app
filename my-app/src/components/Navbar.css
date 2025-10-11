@@ -9,6 +9,12 @@
   font-size: 1em;             /* adjust text size */
 }
 
+.ribbon-elements{
+  display: flex;
+  flex-direction: row;
+  gap: 1em;                   /* space between elements */
+  list-style: none;           /* remove default list styling */
+}
 
 .navbar {
   background: transparent;

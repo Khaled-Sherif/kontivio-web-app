@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Mail, Instagram, Linkedin, Facebook } from 'lucide-react';
 import "./Navbar.css";
 import logo from "../assets/Logo_shape.png"; // put your Kontivio logo in src/assets/
 
@@ -14,7 +15,16 @@ function Navbar() {
 
   return (
     <div className={`navbar ${scrolled ? "scrolled" : ""}`}>
-      <div className="ribbon"></div>
+      <div className="ribbon">
+        <div>
+            <a><Mail size={20} strokeWidth={2.25} /></a>
+        </div>
+        <ul className="ribbon-elements">
+            <a><Linkedin  size={20} strokeWidth={2.25} /></a>
+            <a><Instagram  size={20} strokeWidth={2.25} /></a>
+            <a><Facebook  size={20} strokeWidth={2.25} /></a> 
+        </ul>
+      </div>
       <div class="navbar-container">
         <a href="/" class="navbar-logo">
           <div style={{ display: "flex", alignItems: "center", gap: "3px", height: "40px" }}>
